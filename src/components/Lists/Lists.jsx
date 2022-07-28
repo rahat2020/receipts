@@ -12,9 +12,6 @@ const Lists = ({ item, }) => {
           <td>{i.amount}</td>
           <td>{i.method}</td>
           <td>{i.remark}</td>
-          {/* <td className='delete-btn' onClick={() => deleteBook(book.isbn)}>
-         <i className="fa-solid fa-trash"></i> />
-        </td> */}
         </tr>
       ))
     

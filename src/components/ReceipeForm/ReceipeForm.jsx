@@ -47,13 +47,7 @@ const ReceipeForm = () => {
   }, [item])
 
   
-  // delete items from LS
-  // const deleteBook=(isbn)=>{
-  //   const filteredBooks=items.filter((element,index)=>{
-  //     return element.isbn !== isbn
-  //   })
-  //   setbooks(filteredBooks);
-  // }
+
   return (
     <div className="ReceipeForm">
       <div className="formbox">
